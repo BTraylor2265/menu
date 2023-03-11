@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background-color: rgb(238, 235, 235);
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    width: fit-content;
+    padding-left: 50px;
+}
+.nav ul {
+    list-style: no;
+    background: blue;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.nav li {
+    display: inline-block;
+    padding-inline-start: 0;
+    border-right: 1px solid whitesmoke;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    
+
+}
+
+.aside ul {
+    list-style-type: square;
+}
+
+.aside ol {
+    list-style-type: upper-roman;
+}
